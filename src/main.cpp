@@ -7,7 +7,7 @@
 
 #define LED_PIN        23   // LED (with 220 ohm resistor) is connected to GPIO23
 #define BUTTON_PIN     22   // Button is connected between GPIO22 and 3.3V
-#define DEBOUNCE_TIME  50   // Time in ms to wait until the button stops bouncing
+#define DEBOUNCE_TIME  80   // Time in ms to wait until the button stops bouncing
 
 bool ledState = HIGH;          // Current state of the LED (starts ON)
 bool lastButtonState = LOW;    // Button state from the previous loop
